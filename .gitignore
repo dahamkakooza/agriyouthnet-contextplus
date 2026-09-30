@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data (kept off the repo)
+data/raw/
+data/processed/
+*.zip
+
+# Environment
+.env
+.DS_Store
