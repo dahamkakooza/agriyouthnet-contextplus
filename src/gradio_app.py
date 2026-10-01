@@ -6,7 +6,7 @@ from torchvision import transforms
 from model import AgriYouthNetContextPlus, CLASS_NAMES
 
 DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
-MODEL_PATH = 'results/models/agriyouth_contextplus.pt'
+MODEL_PATH = 'D:\\agriyouthnet-contextplus\\results\\models\\agriyouth_contextplus.pt'
 
 MEAN = [0.485, 0.456, 0.406]
 STD  = [0.229, 0.224, 0.225]
